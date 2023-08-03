@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>homework2</title>
+</head>
+<body>
+    <script>
+
+
+
+
+
+
+let num = parseInt(prompt("Please enter a number Between 0 - 1000: "));
+
+while (num < 0 || num > 1000) {
+  num = parseInt(prompt("Please enter a number Between 0 - 1000: "));
+}
+number(num);
+
+function number(num) {
+  if (num < 10) {
+    document.write('sifra achat');
+} else if (num < 100) {
+    document.write('shtey sfarot');
+} else if (num < 1000) {
+    document.write('shlosha sfarot');
+}
+};
+
+
+
+
+    </script>
+</body>
+</html>
